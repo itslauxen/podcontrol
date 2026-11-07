@@ -1,0 +1,6 @@
+.build/
+PodControl.app/
+.DS_Store
+.swiftpm/
+# Diagnósticos locais (grandes e pessoais)
+diag-*.csv

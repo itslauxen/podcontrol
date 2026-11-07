@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key><string>PodControl</string>
+	<key>CFBundleDisplayName</key><string>PodControl</string>
+	<key>CFBundleIdentifier</key><string>dev.lauxen.podcontrol</string>
+	<key>CFBundleExecutable</key><string>PodControl</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>CFBundleShortVersionString</key><string>0.1</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>LSMinimumSystemVersion</key><string>14.0</string>
+	<key>NSHighResolutionCapable</key><true/>
+	<key>NSBluetoothAlwaysUsageDescription</key><string>Para receber os movimentos do objeto de mesa PodControl.</string>
+	<key>NSLocalNetworkUsageDescription</key><string>Para mudar o brilho das luzes pelo Home Assistant de casa.</string>
+	<key>NSAppTransportSecurity</key><dict><key>NSAllowsLocalNetworking</key><true/></dict>
+	<key>NSMotionUsageDescription</key><string>Para ler o movimento dos AirPods e transformar gestos em ações no Mac.</string>
+</dict>
+</plist>
